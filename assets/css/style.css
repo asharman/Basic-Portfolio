@@ -1,3 +1,26 @@
 body {
-    background-image: url("../images/funky-lines.png")
+    background-image: url("../images/funky-lines.png");
+    margin: 0;
+}
+
+.header {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: auto;
+}
+
+.nameheader {
+    background-color: #4aaaa5;
+    display: inline-block;
+    width: auto;
+}
+
+.navigation {
+    float: right;
+}
+
+li {
+    display: inline;
 }
