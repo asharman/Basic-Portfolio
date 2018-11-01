@@ -24,7 +24,7 @@ body {
     border-bottom: #cccccc;
     border-bottom-width: 1px;
     border-bottom-style: solid;
-    position: relative;
+    /* position: relative; */
     overflow-x: visible;
     left: 0;
     right: 0;
@@ -67,6 +67,7 @@ li {
     border-right-style: solid;
     border-right-color: #cccccc;
     border-right-width: 1px; 
+    z-index: 10;
 }
 
 li:last-child {
