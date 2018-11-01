@@ -7,14 +7,6 @@ body {
     margin: 0;
 }
 
-.container {
-    width: 960px;
-    margin: 0 auto;
-    overflow: auto;
-    clear: both;
-    position: relative;
-}
-
 .header {
     background-color: #ffffff;
     top: 0;
@@ -77,5 +69,17 @@ li:last-child {
 
 .contactcontainer {
     width: 960px;
+    margin: 30px auto;
     background-color: white;
+}
+
+h1 {
+    color: #4aaaa5;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size: 28px;
+    padding: 30px 0px;
+    margin: 0 30px;
+    border-bottom: #dddddd;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
 }
