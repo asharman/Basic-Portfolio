@@ -1,4 +1,4 @@
-/*---------------HTML Styling-------------------------------------------------------------------------------------------
+/*---------------Global Styling-------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------*/
 
 * {
@@ -6,18 +6,33 @@
     line-height: 20pt;
 }
 
-html {
+/* Sets up the page layout */
+
+html,
+body {
     height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
-/* The main background image and helps stick the footer to the bottom of the page */
+/* The main background image */
 
 body {
     background-image: url("../images/funky-lines.png");
-    margin-bottom: 30px;
-    position: relative;
+}
+
+/* Creates a container over the header and the page's contents so that the footer can attach to the bottom
+the negative margin gives .push and .footer enough space to fit appropriately no matter how large the content is */
+
+.wrapper {
     min-height: 100%;
-    width: 100%;
+    margin-bottom: -78px;
+}
+
+/* Helps push the margin to the bottom of the content no matter how long the content is */
+
+.push {
+    height: 78px;
 }
 
 /* The box that holds the main content on each page */
@@ -34,7 +49,7 @@ body {
     overflow: auto;
 }
 
-/* Styles the heading in each content box */
+/* Styles the heading in each white content box */
 
 h1 {
     color: #4aaaa5;
@@ -239,22 +254,20 @@ a {
 /*---------------Footer-----------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------*/
 
-/* Sticks the footer at the bottom of the page */
+/* The Footer at the bottom of the page */
 
 .footer {
     background-color: #666666;
     height: 78px;
     width: 100%;
-    bottom: -103px;
     border-top-style: solid;
     border-top-width: 10px;
     border-top-color: #4aaaa5;
-    position: absolute;
-    margin: 30px 0 0 0;
+    margin: 0;
     padding: 0;   
 }
 
-/* THe copyright text in the footer */
+/* The copyright text in the footer */
 
 .footer p {
     color: #ffffff;
@@ -264,3 +277,4 @@ a {
     padding-top: 45px;
     display: block;
 }
+
