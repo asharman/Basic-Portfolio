@@ -10,12 +10,16 @@ html {
     height: 100%;
 }
 
+/* The main background image and helps stick the footer to the bottom of the page */
+
 body {
     background-image: url("../images/funky-lines.png");
     margin: 0;
-    min-height: 100%;
     position: relative;
+    height: 100%;
 }
+
+/* The box that holds the main content on each page */
 
 .container {
     width: 960px;
@@ -29,6 +33,8 @@ body {
     overflow: auto;
 }
 
+/* Styles the heading in each content box */
+
 h1 {
     color: #4aaaa5;
     font-family: Georgia, Times, 'Times New Roman', serif;
@@ -40,6 +46,8 @@ h1 {
     border-bottom-style: solid;
 }
 
+/* Styles the paragraphs inside the content box */
+
 p {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; 
     display: inline;
@@ -50,24 +58,28 @@ p {
 /*---------------Header Styles-----------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------*/
 
+/* The entire header at the top of the page */
+
 .header {
     background-color: #ffffff;
     top: 0;
     width: 100%;
-    height: 78px;
+    height: 76px;
     border-bottom: #cccccc;
     border-bottom-width: 1px;
     border-bottom-style: solid;
-    overflow-x: visible;
-    left: 0;
-    right: 0;
 }
+
+
+/* The div that contains the content in the header */
 
 .nav {
     width: 960px;
     margin: 0 auto;
     height: 78px;
 }
+
+/* Styles the name in the header */
 
 .nameheader {
     background-color: #4aaaa5;
@@ -80,16 +92,16 @@ p {
     color: #ffffff;
 }
 
-.navigation {
-    float: right;
-
-}
+/* The group of links in the header */
 
 ul {
+    float: right;
     height: 79px;
     margin: 0;
     padding:30px 0;
 }
+
+/* Each individual link in the header */
 
 li {
     display: inline;
@@ -104,10 +116,14 @@ li {
     cursor: pointer;
 }
 
+/* Removes the border on the last link */
+
 li:last-child {
     padding-right: 0;
     border: none;
 }
+
+/* Prevents the links from being styled after clicking on them */
 
 a {
     color: inherit;
@@ -116,6 +132,8 @@ a {
 
 /*---------------About Me-----------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------*/
+
+/* Image in About Me section */
 
 .container img {
     width: 250px;
@@ -126,6 +144,8 @@ a {
     float: left;
 }
 
+/* Paragraph in About me section */
+
 .paragraph {
     width: auto;
     margin: 0 30px 30px 30px;    
@@ -135,6 +155,7 @@ a {
 /*---------------Contact Page-----------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------*/
 
+/* Styles each form in contact page */
 
 .container form {
     padding: 30px;
@@ -142,6 +163,8 @@ a {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
 }
+
+/* Styles the placeholder text and input box in contact page */
 
 .container input {
     margin: 5px 0;
@@ -160,6 +183,8 @@ a {
     height: 200px;
 }
 
+/* Button at the bottom of the contact page */
+
 .container .submit {
     width: auto;
     background-color: #4aaaa5;
@@ -170,11 +195,16 @@ a {
 
 /*--------------Portfolio---------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------*/
+
+/* The container that centers the project grid */
+
 .projectset {
     margin: 0 60px;
     width: 100%;
     height: auto;
 }
+
+/* The container that holds the individual projects and titles */
 
 .project {
     float: left;
@@ -185,9 +215,13 @@ a {
     
 }
 
+/* Clears the margins around the project images */
+
 .project img {
     margin:0;
 }
+
+/* Positions and styles the titles for each project */
 
 .title {
     position: absolute;
@@ -204,6 +238,7 @@ a {
 /*---------------Footer-----------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------*/
 
+/* Sticks the footer at the bottom of the page */
 
 .footer {
     background-color: #666666;
@@ -217,6 +252,8 @@ a {
     margin-top: 30px;   
 }
 
+/* THe copyright text in the footer */
+
 .footer p {
     color: #ffffff;
     margin: 0 auto;
@@ -225,6 +262,8 @@ a {
     padding-top: 45px;
     display: block;
 }
+
+/* Helps the spacing of the footer at the bottom of the page */
 
 .push {
     height: 78px;
