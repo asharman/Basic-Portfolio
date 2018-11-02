@@ -8,13 +8,14 @@
 
 html {
     height: 100%;
+    width: 100%
 }
 
 /* The main background image and helps stick the footer to the bottom of the page */
 
 body {
     background-image: url("../images/funky-lines.png");
-    margin-bottom: 30px;
+    margin-bottom: 0px;
     position: relative;
     min-height: 100%;
     width: 100%;
@@ -245,7 +246,7 @@ a {
     background-color: #666666;
     height: 78px;
     width: 100%;
-    bottom: -103px;
+    bottom: 0;
     border-top-style: solid;
     border-top-width: 10px;
     border-top-color: #4aaaa5;
