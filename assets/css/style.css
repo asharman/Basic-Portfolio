@@ -14,7 +14,7 @@ html {
 
 body {
     background-image: url("../images/funky-lines.png");
-    margin: 0;
+    margin-bottom: 30px;
     position: relative;
     min-height: 100%;
     width: 100%;
@@ -245,12 +245,12 @@ a {
     background-color: #666666;
     height: 78px;
     width: 100%;
-    bottom: -3px;
+    bottom: -103px;
     border-top-style: solid;
     border-top-width: 10px;
     border-top-color: #4aaaa5;
     position: absolute;
-    margin-top: 30px 0 0 0;
+    margin: 30px 0 0 0;
     padding: 0;   
 }
 
