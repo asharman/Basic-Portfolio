@@ -14,9 +14,10 @@ html {
 
 body {
     background-image: url("../images/funky-lines.png");
-    margin: 0;
+    margin-bottom: 30px;
     position: relative;
-    height: 100%;
+    min-height: 100%;
+    width: 100%;
 }
 
 /* The box that holds the main content on each page */
@@ -244,12 +245,13 @@ a {
     background-color: #666666;
     height: 78px;
     width: 100%;
-    bottom: 0;
+    bottom: -103px;
     border-top-style: solid;
     border-top-width: 10px;
     border-top-color: #4aaaa5;
     position: absolute;
-    margin-top: 30px;   
+    margin: 30px 0 0 0;
+    padding: 0;   
 }
 
 /* THe copyright text in the footer */
@@ -261,11 +263,4 @@ a {
     font-size: 12px;
     padding-top: 45px;
     display: block;
-}
-
-/* Helps the spacing of the footer at the bottom of the page */
-
-.push {
-    height: 78px;
-    margin: auto;
 }
